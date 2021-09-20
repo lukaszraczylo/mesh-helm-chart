@@ -3,7 +3,7 @@ entries:
   maesh:
   - apiVersion: v2
     appVersion: v1.3.2
-    created: "2021-09-09T22:54:34.290656536Z"
+    created: "2021-09-20T09:06:37.78575326Z"
     dependencies:
     - condition: tracing.deploy
       name: tracing
@@ -42,7 +42,7 @@ entries:
     version: 2.1.2
   - apiVersion: v2
     appVersion: v1.3.1
-    created: "2021-09-09T22:54:34.289037003Z"
+    created: "2021-09-20T09:06:37.784170052Z"
     dependencies:
     - condition: tracing.deploy
       name: tracing
@@ -81,7 +81,7 @@ entries:
     version: 2.1.1
   - apiVersion: v2
     appVersion: v1.2.0
-    created: "2021-09-09T22:54:34.283403288Z"
+    created: "2021-09-20T09:06:37.782424145Z"
     dependencies:
     - condition: tracing.deploy
       name: tracing
@@ -111,7 +111,7 @@ entries:
     version: 2.0.0
   - apiVersion: v2
     appVersion: v1.1.0
-    created: "2021-09-09T22:54:34.28197776Z"
+    created: "2021-09-20T09:06:37.779964734Z"
     dependencies:
     - condition: tracing.deploy
       name: tracing
@@ -141,7 +141,7 @@ entries:
     version: 1.1.0
   - apiVersion: v2
     appVersion: v1.1.0-rc2
-    created: "2021-09-09T22:54:34.28050903Z"
+    created: "2021-09-20T09:06:37.777942025Z"
     dependencies:
     - condition: tracing.deploy
       name: tracing
@@ -171,7 +171,7 @@ entries:
     version: 1.1.0-rc2
   - apiVersion: v2
     appVersion: v1.1.0-rc1
-    created: "2021-09-09T22:54:34.2790509Z"
+    created: "2021-09-20T09:06:37.775879915Z"
     dependencies:
     - condition: tracing.deploy
       name: tracing
@@ -201,7 +201,7 @@ entries:
     version: 1.1.0-rc1
   - apiVersion: v1
     appVersion: v1.0.0
-    created: "2021-09-09T22:54:34.277596971Z"
+    created: "2021-09-20T09:06:37.774321608Z"
     dependencies:
     - condition: tracing.deploy
       name: tracing
@@ -231,7 +231,7 @@ entries:
     version: 1.0.0
   - apiVersion: v1
     appVersion: v0.8.0
-    created: "2021-09-09T22:54:34.27609674Z"
+    created: "2021-09-20T09:06:37.772782601Z"
     dependencies:
     - condition: tracing.deploy
       name: tracing
@@ -261,7 +261,7 @@ entries:
     version: 0.0.9
   - apiVersion: v1
     appVersion: v0.7.0
-    created: "2021-09-09T22:54:34.273755393Z"
+    created: "2021-09-20T09:06:37.771481396Z"
     dependencies:
     - condition: tracing.deploy
       name: tracing
@@ -291,7 +291,7 @@ entries:
     version: 0.0.8
   - apiVersion: v1
     appVersion: v0.6.0
-    created: "2021-09-09T22:54:34.271870954Z"
+    created: "2021-09-20T09:06:37.77017289Z"
     dependencies:
     - condition: tracing.deploy
       name: tracing
@@ -321,7 +321,7 @@ entries:
     version: 0.0.7
   - apiVersion: v1
     appVersion: v0.5.0
-    created: "2021-09-09T22:54:34.270366424Z"
+    created: "2021-09-20T09:06:37.768694483Z"
     dependencies:
     - condition: tracing.deploy
       name: tracing
@@ -351,7 +351,7 @@ entries:
     version: 0.0.6
   - apiVersion: v1
     appVersion: v0.4.0
-    created: "2021-09-09T22:54:34.268959695Z"
+    created: "2021-09-20T09:06:37.766320272Z"
     dependencies:
     - condition: tracing.deploy
       name: tracing
@@ -381,7 +381,7 @@ entries:
     version: 0.0.5
   - apiVersion: v1
     appVersion: v0.3.0
-    created: "2021-09-09T22:54:34.267250461Z"
+    created: "2021-09-20T09:06:37.765053367Z"
     dependencies:
     - condition: tracing.enabled
       name: tracing
@@ -411,7 +411,7 @@ entries:
     version: 0.0.4
   - apiVersion: v1
     appVersion: v0.2.1
-    created: "2021-09-09T22:54:34.266087437Z"
+    created: "2021-09-20T09:06:37.763800361Z"
     dependencies:
     - condition: tracing.enabled
       name: tracing
@@ -441,7 +441,7 @@ entries:
     version: 0.0.3
   - apiVersion: v1
     appVersion: v0.2.0
-    created: "2021-09-09T22:54:34.264960414Z"
+    created: "2021-09-20T09:06:37.762547556Z"
     dependencies:
     - condition: tracing.enabled
       name: tracing
@@ -471,7 +471,7 @@ entries:
     version: 0.0.1
   - apiVersion: v1
     appVersion: v0.1.0
-    created: "2021-09-09T22:54:34.26374119Z"
+    created: "2021-09-20T09:06:37.76131925Z"
     dependencies:
     - condition: tracing.enabled
       name: tracing
@@ -502,7 +502,48 @@ entries:
   traefik-mesh:
   - apiVersion: v2
     appVersion: v1.4.4
-    created: "2021-09-09T22:54:34.311969068Z"
+    created: "2021-09-20T09:06:37.808620162Z"
+    dependencies:
+    - condition: tracing.deploy
+      name: tracing
+      repository: ""
+      version: 0.0.3
+    - condition: metrics.deploy
+      name: metrics
+      repository: ""
+      version: 0.1.0
+    description: Traefik Mesh - Simpler Service Mesh
+    digest: ab97a5ea83ddd0d4c73bea7147c450f673887af867e67b37b0f844b4aa7f5147
+    home: https://traefik.io/traefik-mesh/
+    icon: https://raw.githubusercontent.com/traefik/mesh/master/docs/content/assets/img/traefik-mesh.png
+    keywords:
+    - traefik
+    - mesh
+    - smi
+    maintainers:
+    - email: emile@vauge.com
+      name: emilevauge
+    - email: daniel.tomcej@gmail.com
+      name: dtomcej
+    - email: michael@traefik.io
+      name: mmatur
+    - email: manuel@traefik.io
+      name: santode
+    - email: harold@traefik.io
+      name: jspdown
+    - email: kevin@traefik.io
+      name: kevinpollet
+    name: traefik-mesh
+    sources:
+    - https://github.com/traefik/mesh/
+    - https://github.com/traefik/mesh-helm-chart/
+    type: application
+    urls:
+    - https://helm.traefik.io/mesh/traefik-mesh-4.0.0.tgz
+    version: 4.0.0
+  - apiVersion: v2
+    appVersion: v1.4.4
+    created: "2021-09-20T09:06:37.806427252Z"
     dependencies:
     - condition: tracing.deploy
       name: tracing
@@ -543,7 +584,7 @@ entries:
     version: 3.0.9
   - apiVersion: v2
     appVersion: v1.4.1
-    created: "2021-09-09T22:54:34.308928406Z"
+    created: "2021-09-20T09:06:37.804421343Z"
     dependencies:
     - condition: tracing.deploy
       name: tracing
@@ -584,7 +625,7 @@ entries:
     version: 3.0.8
   - apiVersion: v2
     appVersion: v1.4.1
-    created: "2021-09-09T22:54:34.307059668Z"
+    created: "2021-09-20T09:06:37.802890436Z"
     dependencies:
     - condition: tracing.deploy
       name: tracing
@@ -625,7 +666,7 @@ entries:
     version: 3.0.7
   - apiVersion: v2
     appVersion: v1.4.1
-    created: "2021-09-09T22:54:34.305212831Z"
+    created: "2021-09-20T09:06:37.801167229Z"
     dependencies:
     - condition: tracing.deploy
       name: tracing
@@ -665,7 +706,7 @@ entries:
     version: 3.0.6
   - apiVersion: v2
     appVersion: v1.4.0
-    created: "2021-09-09T22:54:34.303346593Z"
+    created: "2021-09-20T09:06:37.79920652Z"
     dependencies:
     - condition: tracing.deploy
       name: tracing
@@ -705,7 +746,7 @@ entries:
     version: 3.0.5
   - apiVersion: v2
     appVersion: v1.4.0
-    created: "2021-09-09T22:54:34.301533256Z"
+    created: "2021-09-20T09:06:37.796708309Z"
     dependencies:
     - condition: tracing.deploy
       name: tracing
@@ -745,7 +786,7 @@ entries:
     version: 3.0.4
   - apiVersion: v2
     appVersion: v1.4.0
-    created: "2021-09-09T22:54:34.29975132Z"
+    created: "2021-09-20T09:06:37.794462199Z"
     dependencies:
     - condition: tracing.deploy
       name: tracing
@@ -785,7 +826,7 @@ entries:
     version: 3.0.3
   - apiVersion: v2
     appVersion: v1.4.0-rc1
-    created: "2021-09-09T22:54:34.297969884Z"
+    created: "2021-09-20T09:06:37.792709291Z"
     dependencies:
     - condition: tracing.deploy
       name: tracing
@@ -825,7 +866,7 @@ entries:
     version: 3.0.2
   - apiVersion: v2
     appVersion: v1.4.0-rc1
-    created: "2021-09-09T22:54:34.296054245Z"
+    created: "2021-09-20T09:06:37.790930283Z"
     dependencies:
     - condition: tracing.deploy
       name: tracing
@@ -865,7 +906,7 @@ entries:
     version: 3.0.1
   - apiVersion: v2
     appVersion: v1.4.0-rc1
-    created: "2021-09-09T22:54:34.293704597Z"
+    created: "2021-09-20T09:06:37.788860173Z"
     dependencies:
     - condition: tracing.deploy
       name: tracing
@@ -903,4 +944,4 @@ entries:
     urls:
     - https://helm.traefik.io/mesh/traefik-mesh-3.0.0.tgz
     version: 3.0.0
-generated: "2021-09-09T22:54:34.262398862Z"
+generated: "2021-09-20T09:06:37.759799243Z"
